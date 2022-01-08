@@ -1,7 +1,7 @@
 /*首页标题字体 */
 @font-face {
   font-family:'htf';
-  src:url('../fonts/Monoton-Regular-2.ttf');
+  src: url('../fonts/Monoton-Regular-2.ttf');
   font-display:swap
 }
 #site_title {
