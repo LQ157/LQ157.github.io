@@ -1,1 +1,37 @@
-#web_bg{background:url(https://pic.imgdb.cn/item/609dfeafd1a9ae528fe3a40a.jpg);background-repeat:no-repeat;background-size:cover}[data-theme=dark] #page-header:before,[data-theme=dark] #web_bg:before{background-color:transparent}.post-bg:before{background-color:rgba(0,0,0,.5)!important}#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{background:rgba(31,25,25,.8)}
+/*背景图*/
+#web_bg {
+  /* 背景图像的地址（url括号里）  */
+  background: url(https://pic.imgdb.cn/item/609dfeafd1a9ae528fe3a40a.jpg);
+  /* 背景图像不重复 */
+  background-repeat: no-repeat;
+  /* 背景图像大小 */
+  background-size: cover;
+}
+/*去除顶部透明遮罩*/
+[data-theme='dark'] #web_bg:before,
+[data-theme='dark'] #page-header:before {
+  background-color: transparent;
+}
+
+/* #footer-wrap:before{
+	background-color: rgba(0,0,0,0.5) !important;
+} */
+
+/* 文章页背景 */
+/*
+.layout>div:first-child:not(.recent-posts) {
+     以下代表白色透明度为0.3 
+    background: transparent !important;
+}
+*/
+/* 文章页顶图遮罩 */
+.post-bg:before{
+	background-color: rgba(0,0,0,0.5) !important;
+}
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{
+/*以下代表白色透明度为0.3 */
+    background: rgba(31,25,25,.8);
+} 
+
+

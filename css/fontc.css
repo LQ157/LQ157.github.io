@@ -1,1 +1,34 @@
-@font-face{font-family:htf;src:url(../fonts/Monoton-Regular-2.ttf);font-display:swap}#site_title{font-family:htf!important}span#subtitle{font-family:htf!important}a#site-name{font-family:htf!important}#page-header #site_title{font-size:6em;letter-spacing:.08em}@font-face{font-family:ptf;src:url(../fonts/ZhuZiAWan.woff2);font-display:swap}
+/*首页标题字体 */
+@font-face {
+  font-family:'htf';
+  src:url('../fonts/Monoton-Regular-2.ttf');
+  font-display:swap
+}
+#site_title {
+  font-family: htf !important;
+}
+span#subtitle {
+  font-family: htf !important;
+}
+a#site-name {
+  font-family: htf !important;
+}
+#page-header #site_title{
+  font-size: 6em;
+  letter-spacing: 0.08em;
+}
+/*文章字体*/
+@font-face {
+    font-family: 'ptf';
+    /* 字体名自定义即可 */
+    src: url('../fonts/ZhuZiAWan.woff2');
+    /* 字体文件路径 */
+    font-display: swap;
+}
+
+/*字体的全局样式*/
+/*
+body,
+.gitcalendar {
+    font-family: tzy !important;
+}*/
