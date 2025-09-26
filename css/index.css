@@ -1300,7 +1300,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1341,7 +1341,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: ptf;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1725,8 +1725,8 @@ blockquote footer cite:before {
 }
 #article-container pre,
 #article-container code {
-  font-size: var(--global-font-size);
-  font-family: ptf !important;
+  font-size: 16px;
+  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
 }
 #article-container code {
   padding: 0.1rem 0.2rem;
@@ -1753,7 +1753,7 @@ blockquote footer cite:before {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 0.3rem 0 0.1rem 0.7rem;
-  font-size: var(--global-font-size);
+  font-size: 16px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1785,7 +1785,7 @@ blockquote footer cite:before {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: var(--global-font-size);
+  font-size: 16px;
 }
 #article-container .highlight-tools.closed ~ * {
   display: none;
@@ -1870,7 +1870,7 @@ blockquote footer cite:before {
   width: 100%;
   background: var(--hlexpand-bg);
   text-align: center;
-  font-size: var(--global-font-size);
+  font-size: 16px;
   cursor: pointer;
 }
 #article-container .code-expand-btn i {
@@ -6080,7 +6080,7 @@ details {
   margin: 1em 0;
   border-radius: 4px;
   background: #fff;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-transition: all 0.28s ease;
   -moz-transition: all 0.28s ease;
   -o-transition: all 0.28s ease;
@@ -7340,11 +7340,11 @@ p.p.subtitle:first-child {
 }
 span.p.logo,
 p.p.logo {
-  font-family: ptf;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 span.p.code,
 p.p.code {
-  font-family: ptf;
+  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 span.p.left,
 p.p.left {
@@ -7363,7 +7363,7 @@ p.p.right {
 }
 span.p.small,
 p.p.small {
-  font-size: 14px;
+  font-size: 16px;
 }
 span.p.large,
 p.p.large {

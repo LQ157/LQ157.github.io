@@ -19,10 +19,8 @@ a#site-name {
 }
 /*文章字体*/
 @font-face {
-    font-family: 'ptf';
-    /* 字体名自定义即可 */
-    src: url('../fonts/ZhuZiAWan.woff2');
-    /* 字体文件路径 */
+    font-family: 'ptf';/* 字体名自定义即可 */
+    src: url('../fonts/ZhuZiAWan.woff2');/* 字体文件路径 */
     font-display: swap;
 }
 
